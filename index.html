@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="./blob.js"></script>
+</head>
+<body style="background-color: aqua;">
+    <input type="file" id="myimage" accept=".jpg, .jpeg, .png">
+    <input type="text" placeholder="digite o nome do arquivo" onchange="down()" width="20px" id="nameFile">
+    <input type="button" value="Converter" onclick="convert()">
+    <input type="button" value="Ajusta" onclick="ajust()">
+    <input type="button" value="Redimencionar" onclick="crop()">
+    <a id="download" download="imagem.jpg">Download!</a>
+    <br><br><br>
+    <img id="img"></img>
+</body>
+</html>
